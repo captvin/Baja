@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.box-slider{
+    background-color: #091960;
+    height: 879px;
+    background-image: url(../image/bg-slider.png);
+}
+.sec1_home{
+    position: relative;
+    background-image: url(../image/bg-sec1.jpg);
+    height: 804px;
+   
+}
