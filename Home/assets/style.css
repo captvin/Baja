@@ -8,7 +8,6 @@
     top: 0;
     z-index: 99;
 }
-
 .box-slider{
     background-color: #091960;
     height: 879px;
@@ -57,4 +56,90 @@
     font-size: 17px;
     font-weight: 300;
     margin-bottom: 25px;
+}
+.content-sec-3{
+    bottom: -230px;
+    left: 0;
+    right: 0;
+}
+.container-sec-3{
+    max-width: 865px !important;
+}
+.title-sec3 h3{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.title-sec3 h3 strong{
+    font-weight: 800;
+}
+.desc-sec3{
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 105px;
+
+}
+.desc-sec3 p{
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.video-container{
+    padding-bottom: 56%;
+    height: 0;
+    max-width: 100%;
+}
+.video-container iframe{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.section4-home{
+    padding-top: 435px;
+    padding-bottom: 108px;
+}
+.title-sec4{
+    margin-bottom: 90px;
+}
+.title-sec4 h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.footer{
+    background-color: #060e33;
+}
+.main-footer{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.title-footer{
+    max-height: 57px;
+}
+.title-footer h3{
+    font-size: 18px;
+    font-weight: 900;
+}
+.item{
+    margin-top: 20px;
+}
+.content-nav{
+    margin-top: 20px;
+}
+.nav-link{
+    padding: 0;
+    font-size: 15px;
+    color: #ffff;
+    line-height: 35px;
+}
+.content-addres{
+    margin-top: 20px;
+}
+.content-addres p{
+    font-size: 15px;
+    line-height: 35px;
+}
+.sosmed-nav{
+    margin-top: 20px;
 }
