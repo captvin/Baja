@@ -15,7 +15,7 @@
 
 <body>
     <div class="main-wrapper">
-        <header class=" header position-fixed">
+        <header class=" header">
             <nav class="navbar navbar-expand-md bg-white navbar-white"
                 style="padding-left: 50px; justify-content: space-between;">
                 <!-- brand -->
@@ -27,7 +27,7 @@
                 <!-- boot menu -->
                 <ul class="navbar-nav" style="font-size: 15px; margin: 31px;">
                     <li class="nav-item me-3">
-                        <a class="nav-link text-dark fw-bold" href="#">About Us</a>
+                        <a class="nav-link text-dark fw-bold" href="../about/about.html">About Us</a>
                     </li>
                     <li class="nav-item me-3">
                         <a class="nav-link text-dark fw-bold" href="#">Our Services</a>
@@ -46,10 +46,16 @@
                     </li>
 
                 </ul>
-
             </nav>
-            <div class="underline" style="background-color: #e31e24; height: 5px;"></div>
         </header>
+        <script type="text/javascript">
+            window.addEventListener("scroll", () => {
+                const navbar = document.querySelector(".header");
+        
+                navbar.classList.toggle("scrolling", window.scrollY > 0);
+                navbar.classList.toggle("header-scrolling", window.scrollY > 0);
+            });
+        </script>
 
         <div class="box-slider d-flex align-items-center">
             <div class="slider-text text-light" style="margin-left: 161px;">
@@ -348,15 +354,15 @@
                                 </div>
                             </div>
                             <div class="col-lg-3 item">
-                                <div class="item">
+                                <div class="item mt-5    ">
                                     <div class="title-footer d-flex align-items-end text-light">
 
                                     </div>
                                     <div class="sosmed-nav">
                                         <ul class="nav flex-column">
                                             <li class="nav-item">
-                                                <a class="nav-link whatsapp" href="https://wa.me/6281957488000"
-                                                    target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                                <a class="nav-link whatsapp d-flex align-items-center" href="https://wa.me/6281957488000"
+                                                    ><svg xmlns="http://www.w3.org/2000/svg"
                                                         xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
                                                         role="img" class="iconify iconify--akar-icons" width="1em"
                                                         height="1em" preserveAspectRatio="xMidYMid meet"
@@ -368,7 +374,7 @@
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="telp:62317488000"><svg
+                                                <a class="nav-link nav-sosmed" href="telp:62317488000"><svg
                                                         xmlns="http://www.w3.org/2000/svg"
                                                         xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
                                                         role="img" class="iconify iconify--carbon" width="1em"
@@ -380,7 +386,7 @@
                                                     </svg>+62 31 748 8000</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="mailto:cso@bajatrans.co.id"><svg
+                                                <a class="nav-link nav-sosmed" href="mailto:cso@bajatrans.co.id"><svg
                                                         xmlns="http://www.w3.org/2000/svg"
                                                         xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
                                                         role="img" class="iconify iconify--fa-solid" width="1em"
@@ -398,6 +404,11 @@
 
 
                         </div>
+                    </div>
+                </div>
+                <div class="copyright d-lg-flex justify-content-between align-items-center">
+                    <div class="text-cr">
+                        <p>© 2022 PT Bali Jaya Transindo - All rights reserved.</p>
                     </div>
                 </div>
             </footer>
