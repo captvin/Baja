@@ -20,7 +20,7 @@
 .con-banner{
     max-width: 670px !important;
 }
-.page-title span{
+.con-banner span{
     font-size: 20px;
     line-height: 1;
     font-weight: 700;
@@ -33,83 +33,38 @@
     font-weight: 400;
     margin-bottom: 0;
 }
-.section-form{
-    padding-top: 107px;
-    padding-bottom: 120px;
+.sec1{
+    padding-top: 160px;
+    padding-bottom: 175px;
 }
-.content-form{
-    max-width: 740px;
+.content-karir{
+    max-width: 670px;
 }
-.row-form{
-    --bs-gutter-x: 105px;
-    
-}
-.left-item{
-    margin-bottom: 45px;
-}
-.title-content-left{
-    max-height: 57px;
-}
-.title-content-left h3{
-    font-size: 18px;
-    font-weight: 1000;
-    color: #04091e;
-    margin-bottom: 15px;
-}
-.left-link{
-    color: inherit;
-    font-size: 15px;
-}
-.content-addres-left p{
-    line-height: 25px;
-    font-size: 15px;
-    color: #000;
-    margin-bottom: 0;
-}
-.desc-left p{
-    line-height: 25px;
-    font-size: 15px;
-    color: black;
-    margin-bottom: 0;
-}
-.form-title h3{
-    font-size: 18px;
-    color: #060e33;
+.title h1{
+    font-size: 40px;
     font-weight: 800;
-    margin-bottom: 38px;
-}
-.group-form{
     margin-bottom: 30px;
+    color: #060e33;
 }
-.group-form label{
+.intro p{
+    font-size: 22px;
+    font-weight: 100;
+    margin-bottom: 25px;
+    color: #343434;
+}
+.desc p{
     font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 25px;
+    color: #343434;
+}
+.email a{
+    font-size: 17px;
+    font-weight: 700;
     color:#060e33;
-    font-weight: 800;
-    margin-bottom: 10px;
-}
-.group-form input{
-    height: 38px;
-    border-radius: 0;
-    border: 2px solid #060e33;
-}
-.group-form textarea{
-    border: 2px solid #060e33;
-    min-height: 180px;
-}
-.button-submit{
-    background-color:#e61e26;
-    color: white;
-    font-weight: 800;
-    font-size: 15px;
-    width: 195px;
-    height: 38px;
-    border-radius: 0;
 }
 
 
-
-
-/* footer */
 
 .footer{
     background-color: #060e33;
